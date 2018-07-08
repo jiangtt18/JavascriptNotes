@@ -889,7 +889,7 @@ testCallBack(display); // Here display function is being passed as callback
 
 
 ## Question 27. Describe Singleton Pattern In JavaScript?
-The singleton pattern is the most commonly used JavaScript design pattern and one that you will probably be aware of more than any others. It provides a great way to wrap the code into a logical unit that can be accessed through a single variable. The Singleton design pattern is used when only one instance of an object is needed throughout the lifetime of an application.
+The singleton pattern is the most commonly used JavaScript design pattern and one that you will probably be aware of more than any others. It provides a great way to wrap the code into a logical unit that can be accessed through a single variable. `The Singleton design pattern is used when only one instance of an object `is needed throughout the lifetime of an application.
 
 In JavaScript, there is a different way to achieve singleton object than any other object oriented supported language (Java, C++). In JavaScript Singleton pattern have many uses, they can be used for NameSpacing, which reduce the number of global variables in your page (prevent from polluting global space), organizing the code in a consistent manner, which increase the readability and maintainability of your pages. There are two important points in the traditional definition of Singleton pattern:
 - There should be only one instance allowed for a class and
@@ -1144,7 +1144,7 @@ function Clone(object){
 
 ## Question 32. What are promises and how they are useful?
 
-We use promises for handling asynchronous interactions in a sequential manner. They are especially useful when we need to do an async operation and THEN do another async operation based on the results of the first one. For example, if you want to request the list of all flights and then for each flight you want to request some details about it. The promise represents the future value. It has an internal state (`pending`, `fulfilled` and `rejected`) and works like a state machine.
+We use promises for handling `asynchronous interactions` in a `sequential manner`. They are especially useful when we need to do an async operation and THEN do another async operation based on the results of the first one. For example, if you want to request the list of all flights and then for each flight you want to request some details about it. The promise represents the future value. It has an internal state (`pending`, `fulfilled` and `rejected`) and works like a state machine.
 
 A promise object has `then` method, where you can specify what to do when the promise is fulfilled or rejected.
 
@@ -1238,7 +1238,9 @@ for (var i = 0; i < arr.length; i++) {
   }(i), 3000);
 }
 ```
+[Scope VS Block explanation](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var-to-declare-a-variable-in-jav)
 
+[function scope explanation](https://wesbos.com/for-of-es6/)
 
 
 ## Question 36. What is best way to detect an arrays object on JavaScript ?
