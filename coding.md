@@ -407,7 +407,7 @@ Answer: 2) bar bar
 3.  foo foo
 4.  bar foo
 
-Answer: 3) foo foo
+Answer: 3) foo foo; he Object.create() method creates a new object, using an existing object to provide the newly created object's __proto__ . need to delete from Object.
 
 ### 11. What would be the output of following code ?
 
@@ -448,7 +448,7 @@ Answer: 2) undefined undefined
 3.  ["100"] 1
 4.  ReferenceError: array is not defined
 
-Answer: 3) ["100"] 1
+Answer: 3) ["100"] 1  // new Array(element0, element1[, ...[, elementN]])
 
 ### 2. What would be the output of following code?
 
@@ -699,7 +699,7 @@ Answer: 1.  [ 'bar', 'john' ] [] [ 'foo' ]
 3.  [ 15, 16, 2, 23, 42, 8 ]
 4.  [ 2, 8, 15, 16, 23, 42 ]
 
-Answer: 3.  [ 15, 16, 2, 23, 42, 8 ]
+Answer: 3.  [ 15, 16, 2, 23, 42, 8 ]  The sort is not necessarily stable. The default sort order is according to string Unicode code 
 
 ## Function:
 
