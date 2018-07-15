@@ -699,7 +699,7 @@ Answer: 1.  [ 'bar', 'john' ] [] [ 'foo' ]
 3.  [ 15, 16, 2, 23, 42, 8 ]
 4.  [ 2, 8, 15, 16, 23, 42 ]
 
-Answer: 3.  [ 15, 16, 2, 23, 42, 8 ]  The sort is not necessarily stable. The default sort order is according to string Unicode code 
+Answer: 3.  [ 15, 16, 2, 23, 42, 8 ]  The sort is not necessarily stable. The default sort order is according to string Unicode code
 
 ## Function:
 
@@ -746,7 +746,7 @@ console.log(obj.innerMessage);
 3.  Type Error
 4.  undefined true
 
-Answer: 4) undefined true
+Answer: 4) undefined true  did not invoke the inner function
 
 ### 3. What would the output of following code ?
 
@@ -787,7 +787,7 @@ console.log(obj.innerMessage());
 3.  undefined
 4.  ReferenceError: this.message is not defined
 
-Answer: 3) undefined
+Answer: 3) undefined  this refers to the window because it lives in the callbackfunction
 
 ### 5. What would the output of following code ?
 
@@ -880,7 +880,7 @@ console.log(myFunc("a","b","c","d"));
 3.  undefined
 4.  ReferenceError
 
-Answer: a) 2 2 2
+Answer: a) 2 2 2 The length property indicates the number of arguments expected by the function.
 
 ### 10. What would the output of following code ?
 
@@ -928,7 +928,8 @@ var person1 = new Person('John');
 3.  John undefined
 4.  John John
 
-Answer: 1) John Person
+Answer: 1) John Person // function.name will return the name of the function - Person;
+Person.displayName will not change the value of this.displayName, but will add a key value pair [displayName: f()]
 
 ## Scopes
 
