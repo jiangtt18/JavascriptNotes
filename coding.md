@@ -24,7 +24,7 @@ var employeeId = '19000';
 3.  Type Error
 4.  ReferenceError: employeeId is not defined
 
-Answer: 2) undefined
+Answer: 2) undefined; < var is partially hoisted. declaration is hoisted but not assignment
 
 ### 3. What would be the output of following code?
 
@@ -268,7 +268,7 @@ Answer: 4) ["name", "salary", "country"]
 3.  true false
 4.  true true
 
-Answer: 2) false false
+Answer: 2) false false   two objects are equal if they refer to the exact same object; if use JSON.sringify() then the ORDER is important
 
 ### 4. What would be the output of following code ?
 

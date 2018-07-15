@@ -1,13 +1,18 @@
 #25
-#27
-#28
-#32
-#33
-#35
-#37
-#38 #39 inheritance
-#40
-#44
-$45
-#46
-#49
+#27 Describe Singleton Pattern In JavaScript?
+#28 What are the way by which we can create object in JavaScript ?
+#32 What are promises and how they are useful?
+#33 What are promises and how they are useful?
+#35 Fix the bug using ES5 only
+#37 Best way to detect reference values of any type in JavaScript ?
+#38 Describe Object-Based inheritance in JavaScript.
+#39 Describe Type-Based inheritance in JavaScript.
+#40 How we can prevent modification of object in JavaScript ?.
+#44 Write a log function which will add prefix (your message) to every message you log using console.log ?
+$45 Write a function which will test string as a literal and as an object
+#46 What is typical use case for anonymous function in JavaScript ?
+#49 What is non-enumerable property in JavaScript and how can create
+
+coding:
+hoisting#8 ?
+Object#1 #2
