@@ -14,10 +14,13 @@ $45 Write a function which will test string as a literal and as an object
 #49 What is non-enumerable property in JavaScript and how can create
 
 coding:
-hoisting#8 ?
+hoisting#8
 [Object](https://medium.com/@sankalp.lakhina91/understanding-object-equality-in-javascript-ec3e7a2b5b1d)#1 #2
 Array #1 #3 #6 #9? #11 #12
 function #2 #4 #6vs7  #9
-scope #3? #4?
+(scope)[https://www.youtube.com/watch?v=SBwoFkRjZvE]
+(prototype)[https://www.youtube.com/watch?v=hS_WqkyUah8] #3?
+(try/catch)[https://www.youtube.com/watch?v=BztW_u6HDbs]
+(throw)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw]#4?
 call apply bind #1 #3 #5
 return #32

@@ -120,7 +120,7 @@ console.log(employeeId);
 3.  'abc123'
 4.  ReferenceError: employeeId is not defined
 
-Answer: 3) 'abc123'
+Answer: 3) 'abc123'  some hoisting going with the function of enployeeId. Then it is revalued to be 123bcd. Soo think of it as being two different variables in the scope. So the var employeeId becomes a global scope and the one in the foo function is scoped only to itself because of the hoisting of the function.
 
 ### 8. What would be the output of following code?
 
